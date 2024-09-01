@@ -6,15 +6,30 @@ body {
     margin: 0;
     padding: 0;
 }
+#cabecera{
+    background: #592bc5;
+    color: #f5f5f5;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+#cabecera #tagline {
+    margin: 1rem 0 0 1rem;
+    font-weight: normal;
+    font-size: 0.8rem;
+}
 #container{
     width: 70%;
-    padding: 1em;
+    padding: 0;
     text-align: left;
     border: 1px solid #c7c7c7;
-    padding-top: 15px;
     margin: 0 auto;
 }
-
 #container h1{
-    font-size: 20px;
+    font-size: 30px;
+    padding: 15px;
+}
+#container p{
+    padding: 15px;
 }
